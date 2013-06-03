@@ -69,7 +69,7 @@ class nxcTestSuiteLoader extends PHPUnit_Runner_StandardTestSuiteLoader
     /**
      * @reimp
      */
-    function load( $suiteClassName, $suiteClassFile = '', $syntaxCheck = FALSE )
+    function load($suiteClassName, $suiteClassFile = '', $syntaxCheck = FALSE)
     {
         return parent::load( $suiteClassName, $suiteClassFile, $syntaxCheck );
     }
@@ -77,7 +77,7 @@ class nxcTestSuiteLoader extends PHPUnit_Runner_StandardTestSuiteLoader
     /**
      * @reimp
      */
-    public function reload( ReflectionClass $aClass )
+    public function reload( ReflectionClass $aClass)
     {
         return parent::reload( $aClass );
     }
