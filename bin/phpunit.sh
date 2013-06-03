@@ -1,1 +1,0 @@
-phpunit --include-path=./extension/nxc_tools/classes/test/ --loader=nxcTestSuiteLoader $1
